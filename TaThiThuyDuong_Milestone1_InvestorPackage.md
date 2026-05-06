@@ -17,8 +17,6 @@
 
 > Mỗi kỳ, GV tiểu học VN mất **~13 giờ** viết **378 nhận xét TT27** theo kiểu copy-paste (9 loại × 42 HS × 2 phút). **EvalMate** tạo draft chuẩn 9 trường, bám sát JSON tiêu chí từng khối lớp. Review batch xong trong **< 3 giờ**, DAR đạt 70% (sửa < 5p). LTV/CAC **10×**. Gọi 500M VND seed: Q2 đạt 70%+ DAR, Q3 build export VnEdu, Q4 50 trường trả tiền.
 
-> ⚠️ **Điều chỉnh so với bản cũ:** "15 giờ" → "~13 giờ" (9 × 42 × 2 phút = 756 phút = 12,6 giờ, làm tròn theo PRD). "4 giờ" → "< 3 giờ" (Core outcome trong PRD ghi rõ mục tiêu *dưới 3 giờ/kỳ*).
-
 ---
 
 ## Trang 2–3 · Pitch Memo & Phân Tích Thị Trường
@@ -28,7 +26,6 @@
 **Vấn đề**
 Giáo viên tiểu học bị quá tải với **1.440 nhận xét định tính/năm** theo Thông tư 27 (9 loại nhận xét × 40 HS × 4 định kỳ = 1.440), tương đương **48 giờ/năm** — dẫn đến tình trạng copy-paste đối phó và làm mất giá trị theo dõi sự tiến bộ của trẻ.
 
-> ⚠️ **Điều chỉnh:** "25h/năm" (bản cũ lấy từ Problem Brief) → **48 giờ/năm** (số chính xác từ phần Pain Points của PRD: 1.440 × 2 phút = 2.880 phút ≈ 48 giờ).
 
 **Insight cốt lõi**
 Ngưỡng chấp nhận AI không nằm ở chất lượng văn bản tốt nhất mà ở **tốc độ chỉnh sửa**. Giáo viên sẽ dùng AI nếu 70%+ bản nháp chỉ cần sửa dưới 5 phút để hoàn thành.
@@ -49,7 +46,6 @@ Vòng lặp học tập từ hành vi chỉnh sửa của giáo viên *(Domain-l
 | **SAM** — Mục tiêu | 4M – 6M USD/năm | ~200.000 GV khu vực đô thị có tiếp cận công nghệ |
 | **SOM** — Thực tế (12–24 tháng) | 150K – 300K USD/năm | 5.000 – 10.000 người dùng sớm tại HN & HCM |
 
-> **Lưu ý:** Số liệu TAM/SAM/SOM dạng USD không có trong file Excel (Excel chỉ dùng TAM = 50.000 khách để tính P&L). Con số trên là ước tính thị trường riêng, cần bổ sung nguồn khi trình bày với VC.
 
 ---
 
@@ -105,7 +101,6 @@ Vòng lặp học tập từ hành vi chỉnh sửa của giáo viên *(Domain-l
 | **CAC Payback** | 200.000 / 100.000 | **2 tháng** | Target: < 12 tháng ✅ |
 | Unit Economics Status | — | **✅ HEALTHY** | (xác nhận từ file Excel) |
 
-> ⚠️ **Lưu ý:** Phần *Decision Note* trong file Excel ghi "LTV/CAC ~5" — đây là lỗi text trong ô ghi chú. Bảng tính tự động cho kết quả đúng là **10×** (xác nhận tại Tab 2, dòng "LTV/CAC Ratio").
 
 ### 4.3 Chỉ Số Dự Án (24 tháng — Base Scenario)
 
@@ -161,8 +156,6 @@ Vòng lặp học tập từ hành vi chỉnh sửa của giáo viên *(Domain-l
 
 ### 6.2 Critical Path (Cột NOW)
 
-> ⚠️ **Bổ sung so với bản cũ:** PRD gốc có Task 1 và Task 6 — bản cũ bỏ sót.
-
 ```
 Task 1  →  Task 2  →  Task 3  →  Task 4  →  Task 5  →  Task 6
 ```
@@ -182,4 +175,5 @@ Task 1  →  Task 2  →  Task 3  →  Task 4  →  Task 5  →  Task 6
 
 Phụ lục
 Link file Excel chi tiết (Tài chính Day 18): [Day18-AI-Product-Finance-Model.xlsx](https://docs.google.com/spreadsheets/d/176y0lO6XLbmPKmAyvtdu1flRpmhCZwfZ/edit?usp=sharing&ouid=115085960539714197062&rtpof=true&sd=true)
+
 Link file PRD đầy đủ (Day 17): [Product Requirements Document](https://docs.google.com/document/d/1rz-bLs9Seiv6rzUT65UDZeSUZ1YhwXI0B3NRz8P_xsc/edit?usp=sharing)
