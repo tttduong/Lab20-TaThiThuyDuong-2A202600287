@@ -1,18 +1,17 @@
 # EVALMATE — Investor Package · Milestone 1
 
 **Giải pháp AI viết Nhận Xét Học Bạ cho Giáo viên Tiểu học**
-**Người thực hiện:** Tạ Thị Thùy Dương
+**Tạ Thị Thùy Dương - 2A202600287
 
 ---
-
-> **Ghi chú xác minh số liệu:** Toàn bộ chỉ số tài chính trong tài liệu này đã được đối chiếu với file `Day18-AI-Product-Finance-Model.xlsx` (Tab 1 Assumptions + Tab 2 Unit Economics) và `Product_Requirements_Document.docx`. Các sai lệch so với bản nháp trước được ghi chú rõ ở từng mục.
+`Day18-AI-Product-Finance-Model.xlsx` (Tab 1 Assumptions + Tab 2 Unit Economics) và `Product_Requirements_Document.docx`. Các sai lệch so với bản nháp trước được ghi chú rõ ở từng mục.
 
 ---
 
 ## Trang 1 · Bìa & Twitter Pitch
 
 **Tên dự án:** EvalMate — Giải pháp AI viết nhận xét học bạ cho giáo viên tiểu học
-**Người thực hiện:** Tạ Thị Thùy Dương
+
 
 ### Twitter Pitch (280 ký tự)
 
@@ -181,28 +180,6 @@ Task 1  →  Task 2  →  Task 3  →  Task 4  →  Task 5  →  Task 6
 
 ---
 
-## Phụ Lục · Bảng Xác Minh Số Liệu
-
-| Số liệu | Bản MD cũ | File nguồn | Trạng thái |
-|---|---|---|---|
-| Tổng nhận xét/năm | 1.440 | PRD: 9 × 40 × 4 = 1.440 ✅ | ✅ Khớp |
-| Thời gian/năm | 25h | PRD: 1.440 × 2 = 2.880 phút = **48 giờ** | ⚠️ Đã sửa → 48h |
-| Nhận xét/kỳ (Twitter) | 378 | 9 × 42 HS = 378 ✅ | ✅ Khớp |
-| ARPU | 200.000 VND | Excel Tab 1 ✅ | ✅ Khớp |
-| COGS | 100.000 VND | Excel: 85K+10K+5K = 100K ✅ | ✅ Khớp |
-| CAC | 200.000 VND | Excel Tab 1 ✅ | ✅ Khớp |
-| Monthly Churn | 5,0% | Excel Tab 1 ✅ | ✅ Khớp |
-| Avg months | 20 tháng | 1/0,05 = 20 ✅ | ✅ Khớp |
-| Gross Margin | 50% | 100K/200K ✅ | ✅ Khớp |
-| LTV | 2.000.000 VND | 100K × 20 ✅ | ✅ Khớp |
-| LTV/CAC | 10× | Excel Tab 2 (Decision Note có lỗi text "~5") | ✅ Bảng tính đúng = 10× |
-| CAC Payback | 2 tháng | 200K/100K ✅ | ✅ Khớp |
-| NPV | — | Excel Tab 3: 5.674,6M VND | ➕ Bổ sung mới |
-| IRR | — | Excel Tab 3: 14,64%/năm | ➕ Bổ sung mới |
-| Project Payback | — | Excel Tab 3: Tháng 8 | ➕ Bổ sung mới |
-| Critical Path | Task 2–5 | PRD: Task **1–6** | ⚠️ Bổ sung Task 1 & 6 |
-
----
-
-*EvalMate · Tạ Thị Thùy Dương · Milestone 1 Investor Package*
-*Số liệu xác minh từ: `Day18-AI-Product-Finance-Model.xlsx` & `Product_Requirements_Document.docx`*
+Phụ lục
+Link file Excel chi tiết (Tài chính Day 18): [Day18-AI-Product-Finance-Model.xlsx](https://docs.google.com/spreadsheets/d/176y0lO6XLbmPKmAyvtdu1flRpmhCZwfZ/edit?usp=sharing&ouid=115085960539714197062&rtpof=true&sd=true)
+Link file PRD đầy đủ (Day 17): [Product Requirements Document](https://docs.google.com/document/d/1rz-bLs9Seiv6rzUT65UDZeSUZ1YhwXI0B3NRz8P_xsc/edit?usp=sharing)
